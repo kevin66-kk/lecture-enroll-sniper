@@ -1,0 +1,9 @@
+# 运行 app.py 所需
+requests>=2.28
+Pillow>=9.0
+
+# 启用 auth_core 的签名校验时需要（REQUIRE_LICENSE = True）
+cryptography>=41.0
+
+# 可选：识别屏幕截图里的二维码
+# pyzbar>=0.1.9
